@@ -2,7 +2,7 @@
 /**
  * binary_tree_inorder - this goes through a binary tree
  * @tree: a pointer
- * @func
+ * @func: a pointer
  */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
