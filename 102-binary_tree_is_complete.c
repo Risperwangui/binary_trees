@@ -43,5 +43,5 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 		return (0);
 
 	size = binary_tree_size(tree);
-	return (is_complete_recursive(tree, 0 ,size));
+	return (is_complete_recursive(tree, 0, size));
 }
